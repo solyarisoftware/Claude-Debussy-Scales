@@ -1,0 +1,584 @@
+# ==================================================================
+# Claude Debussy - Scales and Pitch Collections
+# ==================================================================
+#
+# Claude Debussy (1862-1918) was a French composer whose harmonic
+# language broke decisively with 19th-century tonality. Rather than
+# developing a single personal system (as Scriabin did), Debussy
+# drew freely from multiple pitch collections, treating them as
+# interchangeable colors in a connected harmonic network.
+#
+# His pitch world revolves around five key collections included here:
+#
+#   1. Whole-tone scale       - 6 notes, 1 mode,  2 transpositions
+#   2. Octatonic scale        - 8 notes, 2 modes, 3 transpositions
+#   3. Pentatonic             - 5 notes, 5 modes, 12 transpositions
+#   4. Diatonic modes         - 7 notes, 7 modes, 12 transpositions
+#      (Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian)
+#   5. Acoustic / Lydian dom. - 7 notes, 7 modes, 12 transpositions
+#
+# Total scale entries: 1 + 2 + 5 + 7 + 7 = 22
+#
+# ==================================================================
+# SHARED COLLECTIONS WITH SCRIABIN
+# ==================================================================
+#
+# Scales 1 (whole-tone) and 2 (octatonic) are shared with Scriabin.
+# Scale 5 (acoustic) is also shared: in Scriabin it is the parent
+# of the Prometheus/Mystic collection (the Prometheus scale = the
+# acoustic scale with the perfect 5th omitted).
+#
+# The key differences between the two composers:
+#   - Debussy's DISTINCTIVE additions: pentatonic (gamelan-derived)
+#     and the systematic revival of the diatonic church modes.
+#   - Debussy's octatonic use: shorter passages, fluid juxtaposition
+#     with other collections (unlike Stravinsky's structural blocks).
+#   - Debussy's whole-tone use: even more central and pervasive than
+#     in Scriabin — so much so that Messiaen said after Debussy
+#     there was "nothing else to add" to the whole-tone scale.
+#
+# ==================================================================
+# SCALE NETWORK (Tymoczko 2004)
+# ==================================================================
+#
+# Dmitri Tymoczko, in "Scale Networks and Debussy" (Journal of Music
+# Theory, 48.2, 2004), demonstrates that these scales form a
+# connected network where adjacent collections share maximum common
+# tones — precisely the voice-leading relationships Debussy exploited
+# to move fluidly between harmonic worlds. The acoustic scale acts
+# as a mediator between whole-tone and diatonic collections, just as
+# in Scriabin it mediates between whole-tone and octatonic via the
+# Prometheus collection. This is a striking structural parallel
+# between the two composers' harmonic languages.
+#
+# ==================================================================
+# HISTORICAL REFERENCES BY SCALE
+# ==================================================================
+#
+# 1. WHOLE-TONE:
+#    - Messiaen: "after Debussy, there was nothing else to add"
+#      (formalized it as his Mode 1 of Limited Transposition)
+#    - Britannica: "some outstanding examples of whole-tone harmony
+#      are Debussy's Voiles (1909) and Cloches a travers les feuilles"
+#    - Gamelan link: possibly Debussy's analogue of the gamelan's
+#      7-note pelog tuning (brenthugh.com/debnotes/gamelan.html)
+#    - Key works: Voiles (Preludes Bk 1), La mer, Pelleas Act 4,
+#      Images Bk 1, Prelude a l'apres-midi d'un faune (bb.32-36),
+#      Cloches a travers les feuilles (Images Bk 2)
+#
+# 2. OCTATONIC:
+#    - Allen Forte, "Debussy and the Octatonic" (Music Analysis, 1991)
+#    - Mark DeVoto on Nuages: "arguably Debussy's boldest single
+#      leap into the musical unknown"
+#    - WJEC analysis notes: Debussy used octatonic in shorter passages,
+#      juxtaposing it with whole-tone and diatonic material, exploiting
+#      shared subsets between the different collections
+#    - Key work: Nuages (Nocturnes, 1899) - cor anglais melody built
+#      on B octatonic collection; bars 33-42 juxtapose whole-tone
+#      and octatonic material
+#
+# 3. PENTATONIC:
+#    - Root event: 1889 Paris Exposition Universelle. Debussy heard
+#      Javanese gamelan in the Dutch pavilion and returned "again and
+#      again" (Tamagawa dissertation, Univ. of Texas, 1988)
+#    - Debussy's own words: "the Javanese music makes our tonic and
+#      dominant seem like empty phantoms for the use of unwise infants"
+#      (letter cited in W.W. Norton, The Enjoyment of Music, 10e)
+#    - Debussy heard a larger ensemble again at the 1900 Exposition
+#    - Pentatonic mimics gamelan's slendro tuning (5-note system);
+#      whole-tone possibly analogous to 7-note pelog
+#    - In Pagodes alone, Debussy uses 5-6 variants of the pentatonic
+#      to evoke the subtly out-of-tune quality of slendro tuning
+#    - Jeremy Day-O'Connell, "Debussy, Pentatonicism, and the Tonal
+#      Tradition" (Music Theory Spectrum, 31/2, 2009) — the definitive
+#      academic study
+#    - Key works: Pagodes (Estampes 1903), La cathedrale engloutie,
+#      Et la lune descend sur le temple qui fut (Images Bk 2), La mer
+#
+# 4. DIATONIC MODES:
+#    - Wikipedia (Mode, music): "modality REPLACES diatonic tonality
+#      in the music of Claude Debussy and Bela Bartok"
+#    - Leonard Bernstein (Young People's Concerts, 1958): analyzes
+#      Fetes (Nocturnes) bar by bar, showing Dorian/Lydian/Mixolydian
+#      in the first 30 seconds; La cathedrale engloutie as Mixolydian
+#    - Historical origin: the four authentic church modes (Dorian,
+#      Phrygian, Lydian, Mixolydian) were codified by medieval monks
+#      in the 11th century to classify Gregorian chant. Ionian (major)
+#      and Aeolian (natural minor) survived into common-practice
+#      tonality; the others were revived by Debussy as fresh colors
+#    - Key piece/mode evidence:
+#      Ionian:     Clair de lune (Db major), La fille aux cheveux de
+#                  lin (Gb major), L'isle joyeuse second theme (A major)
+#      Dorian:     Fetes opening dance theme; La cathedrale bb.22-27
+#      Phrygian:   La cathedrale (opening, C Phrygian/Aeolian mix);
+#                  La soiree dans Grenade (Iberian flavor)
+#      Lydian:     L'isle joyeuse (1904) — Jim Samson (1977): "the
+#                  Lydian mode functioning as an effective mediator
+#                  between whole-tone and diatonic"; also in Fetes
+#      Mixolydian: La cathedrale engloutie — Bernstein: "Debussy used
+#                  this same Mixolydian mode" for the cathedral theme;
+#                  bars 33-37 confirmed Mixolydian (Bb included);
+#                  also alternating with Dorian throughout Fetes
+#      Aeolian:    La cathedrale (natural minor elements); general use
+#      Locrian:    WEAK attribution — included for completeness as
+#                  the 7th diatonic rotation. Almost unusable as a
+#                  tonal center due to diminished tonic triad.
+#                  No strong documented use in Debussy.
+#
+# 5. ACOUSTIC / LYDIAN DOMINANT:
+#    - Wikipedia (Acoustic scale): "appears very frequently in the
+#      works of Claude Debussy" (citing Tymoczko 2004)
+#    - Tymoczko (2004, p.258): L'isle joyeuse "involves a central
+#      acoustic scale" as its primary organizational collection
+#    - WJEC Nuages analysis: "G acoustic scale used from bar 21 as
+#      a compromise between the octatonic and whole-tone scales"
+#    - The acoustic scale = Mixolydian with raised 4th. Its 7 modes
+#      are identical to the 7 modes of ascending melodic minor.
+#
+# ==================================================================
+# REFERENCES
+# ==================================================================
+#
+#   - Tymoczko, D. (2004). Scale Networks and Debussy.
+#     Journal of Music Theory, 48(2), 219-294.
+#     https://dmitri.mycpanel.princeton.edu/debussy.pdf
+#   - Forte, A. (1991). Debussy and the Octatonic.
+#     Music Analysis, 10(1-2), 125-169.
+#   - Day-O'Connell, J. (2009). Debussy, Pentatonicism, and the
+#     Tonal Tradition. Music Theory Spectrum, 31(2), 225-261.
+#   - Tamagawa, K. (1988). Echoes from the East: The Javanese
+#     Gamelan and its Influence on the Music of Claude Debussy.
+#     Dissertation, University of Texas, Austin.
+#   - Bernstein, L. (1958). What Is a Mode? Young People's Concerts.
+#     https://leonardbernstein.com/lectures/television-scripts/
+#     young-peoples-concerts/what-is-a-mode
+#   - Hugh, B. (2001). Debussy and the Gamelan.
+#     https://brenthugh.com/debnotes/gamelan.html
+#   - Wikipedia: Whole-tone scale, Octatonic scale, Acoustic scale,
+#     Mode (music), L'isle joyeuse
+#   - Companion file: Alexander Scriabin - Scales and Pitch Collections
+#
+# File author: Giorgio Robino
+# Format: REAPER .reascale
+# ==================================================================
+#
+# Interval notation reminder:
+#   The 12-digit sequence maps semitones 0..11 from the root (C).
+#   Non-zero digits = scale degrees (1=root, 2..N=successive degrees).
+#   Zero = note not in the scale.
+#
+# ==================================================================
+
+
+# ------------------------------------------------------------------
+# 1. WHOLE-TONE SCALE
+# ------------------------------------------------------------------
+# Intervals: 2-2-2-2-2-2  |  6 notes  |  2 transpositions  |  1 mode
+#
+# Shared with Scriabin, but even more central to Debussy's identity.
+# Messiaen (who codified it as his Mode 1 of Limited Transposition)
+# stated that after Debussy's exploration there was "nothing else to
+# add." Its maximal symmetry — all rotations produce the same
+# interval pattern — means there is genuinely only 1 mode.
+#
+# A game-changing feature for Debussy: without a leading tone or
+# dominant-tonic pull, the scale creates a blurred, hovering effect
+# that dissolves functional tonality. All triads built from it are
+# augmented, reinforcing harmonic ambiguity.
+#
+# Voiles (Preludes Bk 1, 1909) is composed almost entirely within
+# one whole-tone scale, with a brief contrasting pentatonic section.
+# Other documented uses: Cloches a travers les feuilles (Images
+# Bk 2, 1907), La mer, Jeux, Images pour piano No.1, Pelleas
+# et Melisande Act 4 sc.2, Prelude a l'apres-midi d'un faune
+# (bars 32-33 and 35-36).
+#
+# Notes from C: C  D  E  F#  Ab  Bb
+
+2 "Debussy - Whole-tone"
+
+0 "Whole-tone  2-2-2-2-2-2"              102030405060
+
+-2
+
+
+# ------------------------------------------------------------------
+# 2. OCTATONIC SCALE
+# ------------------------------------------------------------------
+# Intervals: 1-2-1-2-1-2-1-2 (and rotation)
+# 8 notes  |  3 transpositions  |  2 modes
+#
+# Shared with Scriabin. This is the "diminished scale," also
+# Messiaen's Mode 2. Its 3-fold symmetry (repeats every minor third)
+# limits it to 3 distinct transpositions.
+#
+# Debussy's use differs importantly from Stravinsky's: rather than
+# building large structural blocks in the octatonic, Debussy used
+# it in shorter passages, juxtaposing it fluidly with whole-tone
+# and diatonic material and exploiting the shared subsets between
+# collections (the voice-leading network described by Tymoczko 2004).
+#
+# The clearest documented use is in Nuages (Nocturnes, 1899).
+# Allen Forte (Music Analysis, 1991) identifies the cor anglais
+# melody (bars 5-8) as octatonic. Mark DeVoto calls Nuages
+# "arguably Debussy's boldest single leap into the musical unknown,"
+# defining "a kind of tonality never heard before, based on the
+# centricity of a diminished tonic triad B-D-F natural."
+# Bars 33-42 of the same piece directly juxtapose whole-tone and
+# octatonic material — a textbook example of scale-network thinking.
+
+2 "Debussy - Octatonic"
+
+# Mode 1: half-whole  1-2-1-2-1-2-1-2
+# Notes: C  C#  Eb  E  F#  G  A  Bb
+0 "Octatonic  1-2-1-2-1-2-1-2  (half-whole)"   110230450660
+
+-1
+
+# Mode 2: whole-half  2-1-2-1-2-1-2-1
+# Notes: C  D  Eb  F  F#  Ab  A  B
+0 "Octatonic  2-1-2-1-2-1-2-1  (whole-half)"   102204405607
+
+-2
+
+
+# ------------------------------------------------------------------
+# 3. PENTATONIC SCALE
+# ------------------------------------------------------------------
+# Intervals: 2-2-3-2-3 (major pentatonic base)
+# 5 notes  |  12 transpositions  |  5 modes
+#
+# The most distinctly Debussy addition vs. the Scriabin palette.
+#
+# PRIMARY SOURCE — 1889 Paris Exposition Universelle:
+# Debussy, then 27, heard Javanese gamelan music in the Dutch
+# pavilion and returned "again and again" (Tamagawa, 1988).
+# His own words in a letter: "the Javanese music makes our tonic
+# and dominant seem like empty phantoms for the use of unwise
+# infants" (cited in W.W. Norton, The Enjoyment of Music, 10e).
+# He encountered a fuller gamelan ensemble again at the 1900
+# Paris Exposition.
+#
+# PENTATONIC AND THE GAMELAN SLENDRO TUNING:
+# The pentatonic scale approximates gamelan's slendro tuning
+# (a 5-note system, slightly different from equal-tempered
+# pentatonic). In Pagodes alone, Debussy uses 5-6 different
+# versions of the pentatonic scale, partly to evoke the subtly
+# out-of-tune quality of slendro (Day-O'Connell, 2009).
+#
+# Key works: Pagodes (Estampes, 1903) — most thoroughgoing use;
+# La cathedrale engloutie (pentatonic + modal mix);
+# Et la lune descend sur le temple qui fut (Images Bk 2);
+# La mer (1905); Bells Through the Leaves (Images Bk 2).
+#
+# Being an asymmetric 5-note scale, all 5 rotations produce
+# genuinely distinct interval sequences and sonic characters.
+# Names below follow standard ethnomusicological terminology.
+#
+# NOTE ON ATTRIBUTION: The major pentatonic (base) and minor
+# pentatonic (Rot.4) are the best-documented in Debussy. The
+# intermediate rotations (Egyptian, Man Gong, Ritusen/Yo) are
+# included as members of the same 5-mode family, though their
+# direct attribution in Debussy is less specific.
+
+2 "Debussy - Pentatonic"
+
+# Base: 2-2-3-2-3  [Major pentatonic]
+# Notes: C  D  E  G  A
+# The primary pentatonic form in Debussy. Associated with the
+# gamelan slendro tuning and the archaic/pastoral quality Debussy
+# sought in pieces like Pagodes. No semitones = no tonal pull,
+# creating a floating, consonant spaciousness.
+0 "Pentatonic  2-2-3-2-3  (Major)"               102030040500
+
+-1
+
+# Rotation 1: 2-3-2-3-2  [Egyptian / Suspended pentatonic]
+# Notes: C  D  F  G  Bb
+# Starting on the 2nd degree of the major pentatonic. Also called
+# the "suspended" pentatonic in jazz. Adds a more ambiguous,
+# unresolved quality compared to the major pentatonic.
+0 "Pentatonic Rot.1  2-3-2-3-2  (Egyptian)"       102003040050
+
+-1
+
+# Rotation 2: 3-2-3-2-2  [Man Gong / Minor blues pentatonic]
+# Notes: C  Eb  F  Ab  Bb
+# Starting on the 3rd degree of the major pentatonic. The darkest
+# of the five rotations. Less directly documented in Debussy but
+# present as part of the complete pentatonic color family.
+0 "Pentatonic Rot.2  3-2-3-2-2  (Man Gong)"       100203004050
+
+-1
+
+# Rotation 3: 2-3-2-2-3  [Ritusen / Yo pentatonic]
+# Notes: C  D  F  G  A
+# Starting on the 4th degree of the major pentatonic. Used in
+# Japanese traditional music (the "yo" scale). Plausibly within
+# Debussy's palette alongside the major pentatonic given his
+# documented interest in East Asian music.
+0 "Pentatonic Rot.3  2-3-2-2-3  (Ritusen / Yo)"   102003040500
+
+-1
+
+# Rotation 4: 3-2-2-3-2  [Minor pentatonic]
+# Notes: C  Eb  F  G  Bb
+# Starting on the 5th degree of the major pentatonic. The relative
+# minor pentatonic. Present in Debussy as a complement to the major
+# pentatonic in modal and archaic passages.
+0 "Pentatonic Rot.4  3-2-2-3-2  (Minor)"          100203040050
+
+-2
+
+
+# ------------------------------------------------------------------
+# 4. DIATONIC MODES
+# ------------------------------------------------------------------
+# Intervals: from 2-2-1-2-2-2-1 (Ionian base) with 6 rotations
+# 7 notes  |  12 transpositions  |  7 modes
+#
+# One of Debussy's most documented tools for escaping common-
+# practice tonality. Wikipedia (Mode, music) states bluntly that
+# "modality REPLACES diatonic tonality in the music of Claude
+# Debussy and Bela Bartok."
+#
+# HISTORICAL ORIGIN OF THE MODES:
+# The four "authentic" medieval church modes — Dorian, Phrygian,
+# Lydian, Mixolydian — were codified around the 11th century by
+# monks classifying Gregorian chant. The system expanded to 7 modes
+# in the Renaissance (adding Ionian, Aeolian, Locrian). By Bach's
+# time, all but Ionian (major) and Aeolian (natural minor) had
+# disappeared from art music. Debussy revived the remaining five
+# as fresh expressive colors, achieving archaic, floating, or exotic
+# qualities without resorting to atonality.
+#
+# Bernstein (Young People's Concerts, 1958) famously analyzed Fetes
+# (Nocturnes): "in the first half-minute of the piece, Debussy has
+# already used three different modes, none of them major or minor:
+# Dorian, Lydian, and Mixolydian."
+#
+# NOTE ON IONIAN AND AEOLIAN:
+# These are the familiar major and natural minor scales, included
+# here for completeness as members of the same 7-mode diatonic
+# family. They are also present in REAPER's default scale library.
+#
+# NOTE ON LOCRIAN:
+# The 7th rotation is included for theoretical completeness.
+# Its diminished tonic triad (lowered 2nd AND lowered 5th above
+# the root) makes it almost impossible to establish as a stable
+# tonal center in any style. Debussy attribution is WEAK — if
+# present at all, only in passing transitional moments.
+#
+# KEY PIECE EVIDENCE BY MODE:
+#   Ionian:     Clair de lune (Db major), La fille aux cheveux de
+#               lin (Gb major), L'isle joyeuse second theme (A major)
+#   Dorian:     Fetes (Nocturnes) opening dance theme; La cathedrale
+#               engloutie bars 22-27 (confirmed in score analysis)
+#   Phrygian:   La cathedrale engloutie opening (C Phrygian/Aeolian);
+#               La soiree dans Grenade (Iberian Phrygian flavor)
+#   Lydian:     L'isle joyeuse (1904) — Jim Samson (1977): "the
+#               Lydian mode functioning as an effective mediator
+#               between whole-tone and diatonic"; also in Fetes
+#   Mixolydian: La cathedrale engloutie — Bernstein: "Debussy used
+#               this same Mixolydian mode" for the cathedral theme;
+#               bars 33-37 confirmed Mixolydian (Bb causes it);
+#               alternating with Dorian throughout Fetes
+#   Aeolian:    La cathedrale (natural minor elements alongside
+#               Phrygian); general presence in modal passages
+#   Locrian:    WEAK — 7th diatonic rotation, included for
+#               completeness only
+
+2 "Debussy - Diatonic Modes"
+
+# Base: 2-2-1-2-2-2-1  [Ionian / Major scale]
+# Notes: C  D  E  F  G  A  B
+# The familiar major scale. Debussy used it — especially for lyrical
+# second themes and moments of tonal resolution — but constantly
+# escaped from it into other modes. Its presence makes the modal
+# departures more vivid by contrast.
+# Key works: Clair de lune, La fille aux cheveux de lin,
+# L'isle joyeuse (second theme in pure A major).
+0 "Diatonic  2-2-1-2-2-2-1  (Ionian / Major)"         102034050607
+
+-1
+
+# Rotation 1: 2-1-2-2-2-1-2  [Dorian]
+# Notes: C  D  Eb  F  G  A  Bb
+# A minor mode, but with a characteristic raised 6th (major 6th
+# above root) that lifts it above natural minor, giving a quality
+# often described as "noble" or "archaic."
+# Key works: Fetes (Nocturnes) opening dance theme in Dorian;
+# La cathedrale engloutie bars 22-27.
+0 "Diatonic Rot.1  2-1-2-2-2-1-2  (Dorian)"           102304050670
+
+-1
+
+# Rotation 2: 1-2-2-2-1-2-2  [Phrygian]
+# Notes: C  Db  Eb  F  G  Ab  Bb
+# Defined by its half-step above the root (lowered 2nd degree),
+# giving a Spanish, dark, or archaic quality. Used by Debussy for
+# cathedral and Iberian imagery. La cathedrale's opening is built
+# on a C Phrygian/Aeolian palette; La soiree dans Grenade (Estampes)
+# draws on the Phrygian's Spanish-Moorish flavor.
+0 "Diatonic Rot.2  1-2-2-2-1-2-2  (Phrygian)"         120304056070
+
+-1
+
+# Rotation 3: 2-2-2-1-2-2-1  [Lydian]
+# Notes: C  D  E  F#  G  A  B
+# A major mode with a raised 4th (tritone above root), giving a
+# dreamy, luminous, slightly unstable quality — distinct from plain
+# major by that one sharpened degree.
+# Key work: L'isle joyeuse (1904). Jim Samson (1977): "the central
+# relationship in the work is between material based on the whole-
+# tone scale, the Lydian mode and the diatonic scale, the Lydian
+# mode functioning as an effective mediator between the other two."
+# This mediating role mirrors the acoustic scale's function in
+# Tymoczko's scale network.
+0 "Diatonic Rot.3  2-2-2-1-2-2-1  (Lydian)"           102030450607
+
+-1
+
+# Rotation 4: 2-2-1-2-2-1-2  [Mixolydian]
+# Notes: C  D  E  F  G  A  Bb
+# A major mode with a lowered 7th (no leading tone). The absence of
+# the leading tone removes harmonic direction, creating a grand,
+# archaic, or modal quality — perfect for Debussy's cathedral imagery.
+# Key works: La cathedrale engloutie — Bernstein: "Debussy, when he
+# wanted to suggest a cathedral rising out of the sea, used this same
+# Mixolydian mode." Confirmed by score analysis (bars 33-37, Bb
+# switches passage to C Mixolydian). Also prominent throughout Fetes.
+0 "Diatonic Rot.4  2-2-1-2-2-1-2  (Mixolydian)"       102034050670
+
+-1
+
+# Rotation 5: 2-1-2-2-1-2-2  [Aeolian / Natural minor]
+# Notes: C  D  Eb  F  G  Ab  Bb
+# The natural minor scale. Present throughout Debussy alongside
+# Phrygian in passages of archaic or somber character.
+# La cathedrale engloutie's opening section contains Phrygian and
+# Aeolian elements intertwined. Also present in REAPER's default
+# scale library.
+0 "Diatonic Rot.5  2-1-2-2-1-2-2  (Aeolian / Natural minor)"  102304056070
+
+-1
+
+# Rotation 6: 1-2-2-1-2-2-2  [Locrian]
+# Notes: C  Db  Eb  F  Gb  Ab  Bb
+# The 7th and final diatonic rotation. Defined by a diminished
+# tonic triad (lowered 2nd AND lowered 5th), making it practically
+# unusable as a stable tonal center in tonal or modal music.
+# ATTRIBUTION CAVEAT: No strong documented use in Debussy.
+# Included strictly for theoretical completeness — as the inevitable
+# 7th member of the diatonic mode family. Any Locrian-like passages
+# in Debussy are likely transitional or incidental, not structural.
+0 "Diatonic Rot.6  1-2-2-1-2-2-2  (Locrian)"          120304506070
+
+-2
+
+
+# ------------------------------------------------------------------
+# 5. ACOUSTIC SCALE / LYDIAN DOMINANT
+# ------------------------------------------------------------------
+# Intervals: 2-2-2-1-2-1-2  |  7 notes  |  12 transpositions  |  7 modes
+#
+# Also known as: Overtone scale, Lydian b7, Mixolydian #4.
+# From C: C D E F# G A Bb  (degrees: 1-2-3-#4-5-6-b7)
+#
+# Shared with Scriabin (where it is the "parent scale" of the
+# Prometheus/Mystic collection: Prometheus = Acoustic minus the
+# perfect 5th). Wikipedia (Acoustic scale) states it "appears very
+# frequently in the works of Claude Debussy" (citing Tymoczko 2004).
+#
+# STRUCTURAL ROLE IN DEBUSSY'S SCALE NETWORK:
+# Tymoczko (2004) shows the acoustic scale as a critical node
+# between the whole-tone and diatonic collections: it shares notes
+# C D E F# A Bb with the whole-tone scale and connects smoothly
+# to diatonic collections through minimal voice leading. It is
+# essentially a Mixolydian scale with a raised 4th (F# instead of F).
+# This mediating function explains why it appears in pieces that
+# navigate between worlds, like L'isle joyeuse and Nuages.
+#
+# Key piece evidence:
+#   L'isle joyeuse (1904): Tymoczko (2004, p.258) describes it as
+#   "involving a central acoustic scale" as its primary collection.
+#   Nuages (Nocturnes, 1899): The G acoustic scale appears from bar
+#   21, described by the WJEC analysis as "a compromise between the
+#   octatonic and whole-tone scales" — exactly its network role.
+#
+# TERM ETYMOLOGY:
+# The term "acoustic scale" was coined by Erno Lendvai (1955) in
+# his analysis of Bela Bartok. The name refers to the scale's
+# resemblance to the 8th-14th partials of the harmonic series.
+# In jazz it was formalized by George Russell (1953) as the
+# "Lydian dominant" in his Lydian Chromatic Concept.
+#
+# EQUIVALENCE TO THE MELODIC MINOR MODES:
+# The 7 rotations of this scale are IDENTICAL to the complete set
+# of 7 modes of the ascending melodic minor scale:
+#
+#   Base   2-2-2-1-2-1-2  =  Mode 4  Lydian dominant
+#   Rot.1  2-2-1-2-1-2-2  =  Mode 5  Mixolydian b6
+#   Rot.2  2-1-2-1-2-2-2  =  Mode 6  Locrian #2
+#   Rot.3  1-2-1-2-2-2-2  =  Mode 7  Altered / Super Locrian
+#   Rot.4  2-1-2-2-2-2-1  =  Mode 1  Melodic minor (ascending)
+#   Rot.5  1-2-2-2-2-1-2  =  Mode 2  Dorian b2
+#   Rot.6  2-2-2-2-1-2-1  =  Mode 3  Lydian augmented
+#
+# Being asymmetric and 7-note, all 6 rotations are genuinely
+# distinct — the richest mode family in this collection.
+
+2 "Debussy - Acoustic / Lydian Dominant"
+
+# Base: 2-2-2-1-2-1-2  [Melodic minor Mode 4: Lydian dominant]
+# Notes: C  D  E  F#  G  A  Bb
+# The "central acoustic scale" of L'isle joyeuse (Tymoczko 2004).
+# Mediates between whole-tone (shares C D E F# A Bb) and diatonic.
+# = Mixolydian with raised 4th (F# instead of F).
+0 "Acoustic  2-2-2-1-2-1-2  (Lydian dominant)"        102030450670
+
+-1
+
+# Rotation 1: 2-2-1-2-1-2-2  [Mode 5: Mixolydian b6]
+# Notes: C  D  E  F  G  Ab  Bb
+0 "Acoustic Rot.1  2-2-1-2-1-2-2  (Mixolydian b6)"    102034056070
+
+-1
+
+# Rotation 2: 2-1-2-1-2-2-2  [Mode 6: Locrian #2]
+# Notes: C  D  Eb  F  F#  Ab  Bb
+0 "Acoustic Rot.2  2-1-2-1-2-2-2  (Locrian #2)"       102304506070
+
+-1
+
+# Rotation 3: 1-2-1-2-2-2-2  [Mode 7: Altered / Super Locrian]
+# Notes: C  C#  Eb  E  F#  Ab  Bb
+# The "altered scale" of jazz harmony. All tensions altered (b9,
+# #9, b5/#11, b13). The most dissonant of the 7 modes.
+0 "Acoustic Rot.3  1-2-1-2-2-2-2  (Altered)"          120340506070
+
+-1
+
+# Rotation 4: 2-1-2-2-2-2-1  [Mode 1: Melodic minor ascending]
+# Notes: C  D  Eb  F  G  A  B
+# The ascending melodic minor scale — the root of the entire
+# mode family. Minor triad with major 6th and major 7th.
+0 "Acoustic Rot.4  2-1-2-2-2-2-1  (Melodic minor)"    102304050607
+
+-1
+
+# Rotation 5: 1-2-2-2-2-1-2  [Mode 2: Dorian b2]
+# Notes: C  C#  Eb  F  G  A  Bb
+# Also called Phrygian #6 or Javanese scale. The half-step at
+# the start combined with a major 6th creates a distinctive color.
+0 "Acoustic Rot.5  1-2-2-2-2-1-2  (Dorian b2)"        120304050670
+
+-1
+
+# Rotation 6: 2-2-2-2-1-2-1  [Mode 3: Lydian augmented]
+# Notes: C  D  E  F#  Ab  A  B
+# Lydian mode with an augmented 5th (Ab instead of G). Combines
+# the dreamy raised 4th of Lydian with an augmented upper tetrachord.
+0 "Acoustic Rot.6  2-2-2-2-1-2-1  (Lydian augmented)" 102030405607
+
+-2
